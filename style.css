@@ -10,8 +10,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    width: 100%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     z-index: 1000;
+    background-color: white;
 }
 .nav-links{
     display: flex;
@@ -54,13 +58,12 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    
 }
 .hero-txt{
     font-size: 65px; 
-    display: flex;
-    
+    display: flex;   
 }
+
  .typewriter {
       font-size: 25px;
       border-right: 2px solid #111;
@@ -112,6 +115,7 @@ body{
 .skill-section{
     margin: 80px;
     
+    
 }
 .container{
      background-color: #fff;
@@ -120,10 +124,61 @@ body{
       width: 280px;
      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
       transition:  0.3s ease-in-out;
-    }
+ }
 .container:hover{
    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     transition: 0.3s ease-in-out;
+}
+.project-containers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; 
+    margin-top: 50px;   
+}
+.btn3{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 140px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.pro-container{
+     background-color: #fff;
+      border-radius: 16px;
+      padding: 30px 25px;
+      width: 280px;
+      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+      transition:  0.3s ease-in-out;
+      margin: 40px;
+}
+.pro-container:hover{
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.3s ease-in-out;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.about-container img {
+    border-radius: 20px;
+    margin-left: 60px;
+}
+
+.about-txt {
+    margin-left: 60px;
+    margin-right: 60px;
+    color: #545454;
+    font-size: 15px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
 }
 
     @keyframes blink {
@@ -148,6 +203,11 @@ body{
         margin-top: 0px;
        
     }
+    .project-containers{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
     .hero-txt{
         font-size: 45px;
         text-align: center;
@@ -164,4 +224,14 @@ body{
     .container{
         margin-top: 50px;
     }
+    .about-txt{
+        font-size: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .about-container img {
+        width: 200px;
+        height: 200px;
+    }
+   
 }
