@@ -13,10 +13,10 @@
     <nav class="nav-bar">
         <h1 style="margin-left: 40px;">Portfolio</h1>
         <div class="nav-links">
-            <a href="" class="nav-link">Home</a>
-            <a href="" class="nav-link">Skills</a>
-            <a href="" class="nav-link">Projects</a>
-            <a href="" class="nav-link">Contact</a>
+            <a href="#hero" class="nav-link">Home</a>
+            <a href="#container" class="nav-link">Skills</a>
+            <a href="#pro" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
         </div>
         <div class="toggle-menu" onclick="opennav()">
             <i class="fa-solid fa-bars"></i>
@@ -33,7 +33,7 @@
         <p class="sidenavdata"><a href="" class="sidenavdata">Contact</a></p>
     </div>
     </div>
-    <div class="hero">
+    <div class="hero" id="hero">
     <div class="hero-section">
         <h1 class="hero-txt" >Hello there, I'm Kiruthick.</h1>
     </div>
@@ -41,7 +41,7 @@
     <div class="typewriter" id="typewriter">hello</div>
     <p class="txt2">I’m a 19-year-old aspiring technologist with a strong foundation in frontend development, robotics, and video production.
 I combine creativity with technical expertise to build impactful digital experiences.</p>
-    <button class="btn1">Contact</button>
+    <button class="btn1" id="container">Contact</button>
     <button class="btn2">Download CV</button>
     </center>
     </div>
@@ -74,7 +74,7 @@ I combine creativity with technical expertise to build impactful digital experie
             <li>Premier Pro</li>
             <li>After Effects</li>
             <li>Davinci Resolve</li>
-            <li>Capcut</li>
+            <li id="pro">Capcut</li>
         </ul>
     </div>
    </div>
@@ -87,19 +87,19 @@ I combine creativity with technical expertise to build impactful digital experie
     <div class="project-containers">
         <div class="pro-container">
             <h2>Portfolio Website</h2>
-            <h2>Tech Stack : Html,Css,Java-script</h2>
+            <h3>Tech Stack : Html,Css,Java-script</h3>
             <p>Designed and developed a personal portfolio website to showcase my skills and projects.</p>
             <button class="btn3">View Project</button>
     </div>
     <div class="pro-container">
         <h2>Robotics Projects</h2>
-        <h2>Tech Stack : ROS, Solidworks, Autocad</h2>
+        <h3>Tech Stack : ROS, Solidworks, Autocad</h3>
         <p>Worked on various robotics projects including autonomous navigation and robotic arm control.</p>
         <button class="btn3">View Project</button>
     </div>
     <div class="pro-container">
         <h2>Worn-Well E-commerce</h2>
-        <h2>Tech Stack :Html,Css,Java-scrip </h2>
+        <h3>Tech Stack :Html,Css,Java-scrip </h3>
         <p>Designed and developed an front-end for an clothing brand, fully functional and responsive.</p>
         <button class="btn3">View Project</button>
     </div>
@@ -111,10 +111,37 @@ I combine creativity with technical expertise to build impactful digital experie
     <center>
         <h1 style="margin-top: 30px;"> A Pinch About Me</h1>
     </center>
-    <div class="about-container">
+    <div class="about-container" >
         <img src="my photo new.jpg" height="400px" width="320px" alt="Kiruthick R">
         <p class="about-txt">I am Kiruthick R ,a 19-year-old aspiring technologist with a passion for frontend development, robotics, and video production. Currently persuing BE-Mechatronics III year at Kongu Engineering College,Perundurai. Completed my schooling in Green Garden Matric.Hr.sec.school.I thrive on challenges and enjoy creating innovative solutions that make a difference. My goal is to leverage my skills to contribute to impactful projects and continue learning in the ever-evolving tech landscape.</p>
     </div>
+</div>
+<br>
+<br>
+<section class="contact-section" id="contact">
+  <div class="contact-info">
+    <center>
+        <h1 style="font-size: 30px;">Contact Me</h1>
+    </center>
+    <div>
+      <strong>Email:</strong> <a href="mailto:yourname@gmail.com">rkiruthick55@gmail.com</a>
+    </div>
+    <div>
+      <strong>Phone:</strong> <a href="tel:+1234567890">+91 9597424158</a>
+    </div>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/kiruthick-r-%E2%9A%A1-803291293/" target="_blank">LinkedIn</a>
+      <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+      <a href="https://leetcode.com/u/cyxXaFqNSh/" target="_blank">Leetcode</a>
+      <a href="https://github.com/Kiruthick-07" target="_blank">GitHub</a>
+
+    </div>
+  </div>
+  <br>
+  <center>
+    <p style="font-size: 10px;">@2025 Kiruthick R. All Rights Reserved.</p>
+  </center>
+</section>
 
 <script src="script.js"></script>
 </body>

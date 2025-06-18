@@ -6,9 +6,9 @@ function closenav(){
     nav.style.display="none"
 }
  const phrases = [
-      "I'm an Robotics Engineer.r",
-      "I'm an Frontend Developer.r",
-      "I'm an Video Editor.r"
+      "I'm an Robotics Engineer.",
+      "I'm an Frontend Developer.",
+      "I'm an Video Editor."
     ];
 
     const el = document.getElementById("typewriter");
