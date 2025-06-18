@@ -40,6 +40,7 @@ html {
     display: none;
     margin-left: 200px;
     cursor: pointer;
+    left: 40px;
 }
 .side-navbar{
     background-color: black;
