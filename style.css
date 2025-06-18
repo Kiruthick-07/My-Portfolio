@@ -272,11 +272,13 @@ html {
     align-items: flex-start;
     padding: 16px;
     gap: 16px;
+     align-items: center; 
   }
   .about-container img {
     width: 320px;
     height: 400px;
     margin-bottom: 12px;
+    align-items: center;
   }
   .about-txt {
     font-size: 1rem;
