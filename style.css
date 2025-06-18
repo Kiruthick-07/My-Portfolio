@@ -277,7 +277,7 @@ html {
   .about-container img {
     width: 320px;
     height: 400px;
-    margin-bottom: 12px;
+    margin: 12px;
     align-items: center;
   }
   .about-txt {
