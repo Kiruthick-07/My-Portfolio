@@ -267,14 +267,20 @@ html {
     .container{
         margin-top: 50px;
     }
-    .about-txt{
-        font-size: 12px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .about-container img {
-        width: 200px;
-        height: 200px;
-    }
+    .about-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+  }
+  .about-container img {
+    width: 320px;
+    height: 400px;
+    margin-bottom: 12px;
+  }
+  .about-txt {
+    font-size: 1rem;
+    margin: 0;
+  }
    
 }
