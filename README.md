@@ -19,7 +19,7 @@ This is a personal portfolio website showcasing my projects, skills, and contact
    ```
 2. **Open the project folder:**
    ```
-   cd your-portfolio
+   cd My-Portfolio
    ```
 3. **Open `index.html` in your browser.**
 
